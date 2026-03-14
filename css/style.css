@@ -365,3 +365,283 @@ a { text-decoration: none; }
     .categorias-rapidas { margin-top: 2rem; }
     .footer-grid { grid-template-columns: 1fr; }
 }
+
+/* --- 9. MODAL (Ventana Emergente) --- */
+
+/* El fondo oscuro que cubre toda la pantalla */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 37, 64, 0.6);
+    backdrop-filter: blur(4px); /* Efecto de cristal esmerilado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+/* Estado oculto del modal */
+.modal-overlay.oculto {
+    opacity: 0;
+    pointer-events: none; /* Evita clics cuando es invisible */
+}
+
+/* La caja blanca del contenido */
+.modal-contenido {
+    background-color: var(--color-blanco);
+    width: 90%;
+    max-width: 700px;
+    max-height: 90vh; /* Altura máxima del 90% de la pantalla */
+    border-radius: 12px;
+    padding: 2.5rem;
+    position: relative;
+    overflow-y: auto; /* Permite hacer scroll interno si hay mucho texto */
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+}
+
+.modal-overlay.oculto .modal-contenido {
+    transform: translateY(30px); /* Efecto de subir desde abajo */
+}
+
+/* Botón de la 'X' */
+.btn-cerrar {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #8898AA;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.btn-cerrar:hover { color: var(--color-titulos); }
+
+/* --- DISEÑO INTERNO DE LOS DATOS DEL MODAL --- */
+#modal-body h2 {
+    color: var(--color-titulos);
+    font-size: 1.8rem;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+}
+
+.entidad-responsable {
+    color: var(--color-acento);
+    font-weight: 600;
+    font-size: 0.95rem;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.seccion-modal { margin-bottom: 2rem; }
+
+.seccion-modal h3 {
+    font-size: 1.15rem;
+    color: var(--color-titulos);
+    border-bottom: 2px solid var(--color-bordes);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.seccion-modal h3 i { color: var(--color-acento); }
+
+/* Diseño de la lista de requisitos (con icono de check) */
+.lista-requisitos { list-style-type: none; }
+.lista-requisitos li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 0.8rem;
+    color: var(--color-texto);
+}
+.lista-requisitos li::before {
+    content: '\f00c'; /* Icono de check de FontAwesome */
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    color: var(--color-acento);
+}
+
+/* Diseño de los pasos enumerados */
+.lista-pasos {
+    list-style: none;
+    counter-reset: paso-contador; /* Inicia un contador CSS */
+}
+.lista-pasos li {
+    position: relative;
+    padding-left: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-texto);
+}
+.lista-pasos li::before {
+    counter-increment: paso-contador;
+    content: counter(paso-contador); /* Pone el número 1, 2, 3... */
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 24px;
+    height: 24px;
+    background-color: var(--color-fondo);
+    border: 2px solid var(--color-acento);
+    color: var(--color-titulos);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.ubicaciones {
+    background-color: var(--color-fondo);
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 0.95rem;
+}
+.ubicaciones p { margin-bottom: 0.5rem; }
+.ubicaciones strong { color: var(--color-titulos); }
+
+/* --- PAGINACIÓN --- */
+.paginacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0 3rem;
+}
+
+.btn-pag {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.65rem 1.4rem;
+    background-color: var(--color-primario);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.btn-pag:hover:not(:disabled) {
+    background-color: #004a28;
+    transform: translateY(-1px);
+}
+
+.btn-pag:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.pag-info {
+    font-size: 0.9rem;
+    color: #666;
+    min-width: 110px;
+    text-align: center;
+}
+
+/* --- MINISTERIOS --- */
+.seccion-info {
+    padding: 4rem 20px;
+}
+
+.grid-ministerios {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.card-ministerio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1.5rem 1rem;
+    background: #fff;
+    border: 1px solid var(--color-borde);
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--color-texto);
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-align: center;
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+.card-ministerio i {
+    font-size: 1.8rem;
+    color: var(--color-primario);
+}
+
+.card-ministerio:hover {
+    border-color: var(--color-primario);
+    box-shadow: 0 4px 16px rgba(0,90,50,0.12);
+    transform: translateY(-3px);
+}
+
+/* --- FAQ / AYUDA --- */
+.grid-faq {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.faq-item {
+    background: #fff;
+    border: 1px solid var(--color-borde);
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    cursor: pointer;
+}
+
+.faq-item summary {
+    font-weight: 600;
+    font-size: 0.95rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-item summary::after {
+    content: '+';
+    font-size: 1.3rem;
+    color: var(--color-primario);
+    transition: transform 0.2s;
+}
+
+.faq-item[open] summary::after {
+    transform: rotate(45deg);
+}
+
+.faq-item p {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.faq-item a {
+    color: var(--color-primario);
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .grid-faq { grid-template-columns: 1fr; }
+    .grid-ministerios { grid-template-columns: repeat(2, 1fr); }
+}

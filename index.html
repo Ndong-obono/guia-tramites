@@ -19,15 +19,15 @@
                 <span>Trámites<strong>GQ</strong></span>
             </div>
             <ul class="nav-links">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Ministerios</a></li>
-                <li><a href="#">Ayuda</a></li>
-                <li><a href="#" class="btn-login"><i class="fa-regular fa-user"></i> Acceder</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#ministerios">Ministerios</a></li>
+                <li><a href="#ayuda">Ayuda</a></li>
+                <li><a href="https://primatura.gob.gq" target="_blank" rel="noopener" class="btn-login"><i class="fa-regular fa-user"></i> Acceder</a></li>
             </ul>
         </div>
     </nav>
 
-    <header class="hero">
+    <header class="hero" id="inicio">
         <div class="hero-overlay"></div>
         <div class="contenedor hero-contenido">
             <span class="badge-hero">Portal Oficial de Servicios</span>
@@ -63,32 +63,94 @@
         </div>
     </section>
 
-    <main class="seccion-tramites contenedor">
+    <main class="seccion-tramites contenedor" id="tramites">
         <div class="encabezado-seccion">
             <h2>Directorio de Trámites</h2>
             <p>Información actualizada y verificada.</p>
         </div>
 
         <div id="lista-tramites" class="grid-tramites">
-            
-            <article class="tarjeta-tramite">
-                <div class="tarjeta-header">
-                    <span class="etiqueta-categoria">Identidad y Documentación</span>
-                </div>
-                <div class="tarjeta-body">
-                    <h3>Obtención del Documento Nacional de Identidad (DNI)</h3>
-                    <p>El DNI es el documento de identidad oficial obligatorio para todos los ciudadanos ecuatoguineanos mayores de edad.</p>
-                    <div class="meta-info">
-                        <span><i class="fa-regular fa-clock"></i> 7 a 21 días</span>
-                        <span><i class="fa-solid fa-money-bill-wave"></i> 5.000 XAF</span>
-                    </div>
-                </div>
-                <div class="tarjeta-footer">
-                    <button class="btn-ver-mas">Ver Requisitos <i class="fa-solid fa-arrow-right"></i></button>
-                </div>
-            </article>
-            </div>
+        </div>
     </main>
+
+    <div id="modal-tramite" class="modal-overlay oculto">
+        <div class="modal-contenido">
+            <button id="btn-cerrar-modal" class="btn-cerrar">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div id="modal-body">
+                </div>
+        </div>
+    </div>
+
+    <!-- MINISTERIOS -->
+    <section class="seccion-info contenedor" id="ministerios">
+        <div class="encabezado-seccion">
+            <h2>Ministerios e Instituciones</h2>
+            <p>Accede directamente a los portales oficiales del Gobierno de Guinea Ecuatorial.</p>
+        </div>
+        <div class="grid-ministerios">
+            <a href="https://primatura.gob.gq" target="_blank" rel="noopener" class="card-ministerio">
+                <i class="fa-solid fa-flag"></i>
+                <span>🇬🇶 Presidencia del Gobierno</span>
+            </a>
+            <a href="https://primatura.gob.gq" target="_blank" rel="noopener" class="card-ministerio">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>Min. Seguridad Nacional</span>
+            </a>
+            <a href="https://minjusticia.gob.gq" target="_blank" rel="noopener" class="card-ministerio">
+                <i class="fa-solid fa-scale-balanced"></i>
+                <span>Min. Justicia</span>
+            </a>
+            <a href="https://minhacienda-gob.com" target="_blank" rel="noopener" class="card-ministerio">
+                <i class="fa-solid fa-coins"></i>
+                <span>Min. Hacienda</span>
+            </a>
+            <a href="https://primatura.gob.gq" target="_blank" rel="noopener" class="card-ministerio">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>Min. Educación</span>
+            </a>
+            <a href="https://guineasalud.org" target="_blank" rel="noopener" class="card-ministerio">
+                <i class="fa-solid fa-heart-pulse"></i>
+                <span>Min. Sanidad (MINSABS)</span>
+            </a>
+            <a href="https://ventanillaempresarialge.com" target="_blank" rel="noopener" class="card-ministerio">
+                <i class="fa-solid fa-briefcase"></i>
+                <span>VUE — Ventanilla Única</span>
+            </a>
+            <a href="https://inseso.org" target="_blank" rel="noopener" class="card-ministerio">
+                <i class="fa-solid fa-people-roof"></i>
+                <span>INSESO</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- AYUDA -->
+    <section class="seccion-info contenedor" id="ayuda">
+        <div class="encabezado-seccion">
+            <h2>Centro de Ayuda</h2>
+            <p>Preguntas frecuentes sobre el uso de esta guía.</p>
+        </div>
+        <div class="grid-faq">
+            <details class="faq-item">
+                <summary>¿La información de esta guía es oficial?</summary>
+                <p>Esta guía es un recurso ciudadano independiente basado en información pública. Siempre verifica los datos directamente con la institución competente antes de iniciar un trámite.</p>
+            </details>
+            <details class="faq-item">
+                <summary>¿Los costos indicados son exactos?</summary>
+                <p>Los costos son estimados y pueden variar. Se recomienda consultar con la institución correspondiente para confirmar el monto actualizado.</p>
+            </details>
+            <details class="faq-item">
+                <summary>¿Cómo puedo ir al portal oficial del Gobierno?</summary>
+                <p>Puedes acceder directamente en <a href="https://primatura.gob.gq" target="_blank" rel="noopener">primatura.gob.gq</a> o hacer clic en el botón <strong>Acceder</strong> del menú superior.</p>
+            </details>
+            <details class="faq-item">
+                <summary>¿Puedo buscar un trámite específico?</summary>
+                <p>Sí, usa el buscador en la parte superior de la página. Escribe el nombre del trámite o tipo de documento y los resultados se filtran automáticamente.</p>
+            </details>
+        </div>
+    </section>
 
     <footer class="footer-principal">
         <div class="contenedor footer-grid">
@@ -102,9 +164,9 @@
             <div class="footer-enlaces">
                 <h4>Enlaces Útiles</h4>
                 <ul>
-                    <li><a href="#">Ventanilla Única (VUE)</a></li>
-                    <li><a href="#">Seguridad Social (INSESO)</a></li>
-                    <li><a href="#">Ministerio de Hacienda</a></li>
+                    <li><a href="https://ventanillaempresarialge.com" target="_blank" rel="noopener">Ventanilla Única (VUE)</a></li>
+                    <li><a href="https://inseso.org" target="_blank" rel="noopener">Seguridad Social (INSESO)</a></li>
+                    <li><a href="https://minhacienda-gob.com" target="_blank" rel="noopener">Ministerio de Hacienda</a></li>
                 </ul>
             </div>
         </div>
@@ -113,5 +175,6 @@
         </div>
     </footer>
 
+    <script src="./js/app.js"></script>
 </body>
 </html>
