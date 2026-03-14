@@ -1,0 +1,367 @@
+/* --- 1. VARIABLES GLOBALES --- */
+:root {
+    --color-primario: #0A2540; /* Azul marino institucional y moderno (estilo Stripe) */
+    --color-acento: #00D26A; /* Verde brillante para botones de acción */
+    --color-acento-hover: #00B35A;
+    --color-fondo: #F6F9FC; /* Gris muy claro azulado, típico de SaaS */
+    --color-texto: #425466;
+    --color-titulos: #0A2540;
+    --color-blanco: #FFFFFF;
+    --color-bordes: #E6EBF1;
+    
+    --fuente-principal: 'Inter', system-ui, sans-serif;
+    --sombra-suave: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    --sombra-fuerte: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+}
+
+/* --- 2. RESETEO --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fuente-principal);
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+.contenedor {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+a { text-decoration: none; }
+
+/* --- 3. NAVEGACIÓN --- */
+.navbar {
+    background-color: var(--color-blanco);
+    border-bottom: 1px solid var(--color-bordes);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: var(--color-titulos);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo i { color: var(--color-acento); }
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: var(--color-texto);
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover { color: var(--color-titulos); }
+
+.btn-login {
+    background-color: var(--color-fondo);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    border: 1px solid var(--color-bordes);
+}
+
+/* --- 4. HERO SECTION --- */
+.hero {
+    position: relative;
+    padding: 6rem 0;
+    background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: linear-gradient(135deg, rgba(10, 37, 64, 0.95) 0%, rgba(10, 37, 64, 0.8) 100%);
+}
+
+.hero-contenido {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: var(--color-blanco);
+    max-width: 800px;
+}
+
+.badge-hero {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.15rem;
+    color: #ADBDCC;
+    margin-bottom: 2.5rem;
+}
+
+/* Buscador Moderno */
+.buscador-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-blanco);
+    padding: 0.5rem;
+    border-radius: 8px;
+    box-shadow: var(--sombra-fuerte);
+}
+
+.icono-buscar {
+    color: #8898AA;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+}
+
+#buscador {
+    flex-grow: 1;
+    border: none;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    font-family: var(--fuente-principal);
+    outline: none;
+    color: var(--color-titulos);
+}
+
+.btn-buscar {
+    background-color: var(--color-acento);
+    color: var(--color-blanco);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-buscar:hover { background-color: var(--color-acento-hover); }
+
+/* --- 5. CATEGORÍAS RÁPIDAS --- */
+.categorias-rapidas {
+    margin-top: -40px;
+    position: relative;
+    z-index: 10;
+}
+
+.grid-categorias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.card-categoria {
+    background-color: var(--color-blanco);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: var(--sombra-suave);
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border: 1px solid var(--color-bordes);
+}
+
+.card-categoria:hover {
+    transform: translateY(-5px);
+    border-color: var(--color-acento);
+}
+
+.icono-cat {
+    font-size: 2rem;
+    color: var(--color-acento);
+    margin-bottom: 1rem;
+}
+
+.card-categoria h3 {
+    font-size: 1.1rem;
+    color: var(--color-titulos);
+}
+
+/* --- 6. SECCIÓN TRÁMITES (TARJETAS) --- */
+.seccion-tramites {
+    padding: 5rem 24px;
+}
+
+.encabezado-seccion {
+    margin-bottom: 3rem;
+}
+
+.encabezado-seccion h2 {
+    font-size: 2rem;
+    color: var(--color-titulos);
+}
+
+.encabezado-seccion p { color: #8898AA; font-size: 1.1rem; }
+
+.grid-tramites {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+/* Diseño Premium de la Tarjeta */
+.tarjeta-tramite {
+    background-color: var(--color-blanco);
+    border-radius: 8px;
+    border: 1px solid var(--color-bordes);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.tarjeta-tramite:hover {
+    box-shadow: var(--sombra-fuerte);
+    transform: translateY(-4px);
+    border-color: #d1d9e2;
+}
+
+.etiqueta-categoria {
+    display: inline-block;
+    background-color: #E6F4EA;
+    color: #137333;
+    padding: 0.3rem 0.8rem;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tarjeta-body h3 {
+    font-size: 1.25rem;
+    color: var(--color-titulos);
+    margin-bottom: 0.8rem;
+    line-height: 1.4;
+}
+
+.tarjeta-body p {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+.meta-info {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--color-bordes);
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #525F7F;
+}
+
+.meta-info i { color: var(--color-acento); margin-right: 5px; }
+
+.tarjeta-footer { margin-top: auto; }
+
+.btn-ver-mas {
+    width: 100%;
+    background-color: transparent;
+    color: var(--color-titulos);
+    border: 1px solid var(--color-bordes);
+    padding: 0.8rem;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-ver-mas:hover {
+    border-color: var(--color-titulos);
+    background-color: #f8f9fa;
+}
+
+/* --- 7. FOOTER --- */
+.footer-principal {
+    background-color: var(--color-blanco);
+    border-top: 1px solid var(--color-bordes);
+    padding: 4rem 0 2rem 0;
+    margin-top: auto;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.footer-marca p {
+    color: #8898AA;
+    margin-top: 1rem;
+    max-width: 300px;
+}
+
+.footer-enlaces h4 { color: var(--color-titulos); margin-bottom: 1rem; }
+.footer-enlaces ul { list-style: none; }
+.footer-enlaces ul li { margin-bottom: 0.5rem; }
+.footer-enlaces ul li a { color: #8898AA; transition: color 0.2s; }
+.footer-enlaces ul li a:hover { color: var(--color-acento); }
+
+.footer-bottom {
+    border-top: 1px solid var(--color-bordes);
+    padding-top: 2rem;
+    text-align: center;
+    color: #8898AA;
+    font-size: 0.85rem;
+}
+
+/* --- 8. RESPONSIVE --- */
+@media (max-width: 768px) {
+    .nav-links { display: none; }
+    .hero h1 { font-size: 2.5rem; }
+    .buscador-wrapper { flex-direction: column; padding: 1rem; gap: 1rem; }
+    .btn-buscar { width: 100%; }
+    .categorias-rapidas { margin-top: 2rem; }
+    .footer-grid { grid-template-columns: 1fr; }
+}

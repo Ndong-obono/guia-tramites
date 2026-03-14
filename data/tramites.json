@@ -1,0 +1,1188 @@
+{
+  "meta": {
+    "titulo": "Guía de Trámites Ciudadanos — República de Guinea Ecuatorial",
+    "descripcion": "Guía paso a paso de los trámites gubernamentales más comunes para ciudadanos y residentes de Guinea Ecuatorial.",
+    "version": "1.0",
+    "ultima_actualizacion": "2025",
+    "moneda": "Franco CFA (XAF)",
+    "nota_general": "Los costos y tiempos indicados son estimados basados en información oficial disponible. Se recomienda verificar directamente con la institución competente antes de iniciar cualquier trámite, ya que los requisitos pueden variar sin previo aviso.",
+    "contacto_general": "Para información adicional, consulte la página oficial del Gobierno de Guinea Ecuatorial: https://primatura.gob.gq/"
+  },
+  "tramites": [
+    {
+      "id": "T001",
+      "nombre": "Obtención del Documento Nacional de Identidad (DNI)",
+      "categoria": "Identidad y Documentación",
+      "descripcion": "El DNI es el documento de identidad oficial obligatorio para todos los ciudadanos ecuatoguineanos mayores de edad. Es necesario para realizar la mayoría de los trámites administrativos, bancarios y legales en el país.",
+      "entidad_responsable": "Ministerio de Seguridad Nacional — Dirección General de Seguridad y Orden Público",
+      "ubicacion": {
+        "malabo": "Comisaría Central de Policía, Ministerio de Seguridad Nacional, Malabo",
+        "bata": "Delegación Provincial de Seguridad, Bata (Región Continental)",
+        "otras": "Comisarías de Policía en cada distrito del país"
+      },
+      "horario": "Lunes a viernes, 08:00 – 14:00",
+      "documentos_requeridos": [
+        "Certificado literal de nacimiento expedido por el Registro Civil (original y copia)",
+        "2 fotografías tamaño carné recientes, fondo blanco",
+        "Comprobante de pago de la tasa correspondiente",
+        "Declaración de paternidad/maternidad si aplica (para menores)"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Obtener previamente el Certificado Literal de Nacimiento en el Registro Civil (si no se dispone de él)."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Acudir a la Comisaría de Policía o Delegación de Seguridad correspondiente a su lugar de residencia."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Solicitar y rellenar el formulario de solicitud del DNI en la ventanilla de atención al ciudadano."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Presentar la documentación requerida junto con las fotografías."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Abonar la tasa oficial en caja o en el banco indicado por la institución."
+        },
+        {
+          "numero": 6,
+          "descripcion": "Se tomará fotografía digital, huella dactilar y firma en el momento."
+        },
+        {
+          "numero": 7,
+          "descripcion": "Recoger el DNI en el plazo indicado, presentando el comprobante de solicitud."
+        }
+      ],
+      "costo_estimado": "5.000 – 10.000 XAF (primera expedición). Renovación o duplicado puede tener coste diferente.",
+      "tiempo_estimado": "7 a 21 días hábiles",
+      "notas": "El número del DNI coincide con el número del Pasaporte Biométrico para mayores de edad. Para menores, el número puede ser diferente. Se recomienda llevar copias de todos los documentos originales."
+    },
+    {
+      "id": "T002",
+      "nombre": "Obtención o Renovación del Pasaporte Biométrico",
+      "categoria": "Identidad y Documentación",
+      "descripcion": "El Pasaporte Biométrico CEMAC es el documento de viaje internacional emitido a los ciudadanos ecuatoguineanos. Es obligatorio para salir o entrar al país. El número del pasaporte debe coincidir con el DNI del titular.",
+      "entidad_responsable": "Ministerio de Seguridad Nacional / Ministerio de Asuntos Exteriores y Cooperación Internacional (para pasaportes diplomáticos)",
+      "ubicacion": {
+        "malabo": "Dirección General de Seguridad Nacional, Malabo",
+        "bata": "Delegación de Seguridad Provincial, Bata",
+        "exterior": "Embajadas y Consulados de Guinea Ecuatorial en el extranjero"
+      },
+      "horario": "Lunes a viernes, 08:00 – 14:00",
+      "documentos_requeridos": [
+        "DNI vigente (original y copia)",
+        "Certificado literal de nacimiento (original y copia)",
+        "2 fotografías recientes tamaño pasaporte, fondo blanco, sin lentes",
+        "Pasaporte anterior (si es renovación o duplicado)",
+        "Denuncia policial en caso de extravío o robo del pasaporte anterior",
+        "Comprobante de pago de la tasa"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Asegurarse de tener el DNI vigente, ya que el número del pasaporte debe coincidir con el DNI."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Acudir a la oficina correspondiente (Dirección de Seguridad o Delegación Provincial) con todos los documentos."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Completar el formulario oficial de solicitud de pasaporte."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Entregar toda la documentación requerida en la ventanilla de trámites."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Pagar la tasa establecida en la caja o entidad bancaria designada y guardar el comprobante."
+        },
+        {
+          "numero": 6,
+          "descripcion": "Se realizará la captura de datos biométricos: fotografía digital, huella dactilar y firma."
+        },
+        {
+          "numero": 7,
+          "descripcion": "Recoger el pasaporte en el plazo indicado, presentando el recibo de solicitud y el DNI."
+        }
+      ],
+      "costo_estimado": "50.000 – 80.000 XAF (precio orientativo, puede variar según tipo de pasaporte)",
+      "tiempo_estimado": "15 a 30 días hábiles",
+      "notas": "En caso de extravío, se debe presentar denuncia ante la comisaría más próxima antes de solicitar el duplicado. El pasaporte tiene vigencia de 5 años para adultos y 2 años para menores. Guardar el pasaporte con la debida diligencia."
+    },
+    {
+      "id": "T003",
+      "nombre": "Inscripción de Nacimiento en el Registro Civil",
+      "categoria": "Registro Civil",
+      "descripcion": "Trámite obligatorio para registrar el nacimiento de un niño. Es el primer documento que da existencia legal a una persona y es la base para obtener todos los demás documentos de identidad. Debe realizarse en los primeros meses de vida.",
+      "entidad_responsable": "Registro Civil — bajo coordinación del Instituto Nacional de Estadística de Guinea Ecuatorial (INEGE)",
+      "ubicacion": {
+        "malabo": "Oficina del Registro Civil de Malabo",
+        "bata": "Oficina del Registro Civil de Bata",
+        "otras": "Registradores civiles designados en cada uno de los 21 distritos del país"
+      },
+      "horario": "Lunes a viernes, 08:00 – 14:00",
+      "documentos_requeridos": [
+        "Certificado de nacimiento del hospital o maternidad donde nació el bebé",
+        "DNI de ambos progenitores (originales y copias)",
+        "Acta de matrimonio de los padres (si están casados)",
+        "Declaración de reconocimiento paterno si los padres no están casados",
+        "2 fotografías del recién nacido (en algunos registros)",
+        "Comprobante de pago de la tasa correspondiente"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Obtener el certificado médico de nacimiento del hospital, clínica o partera donde nació el bebé."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Acudir a la oficina del Registro Civil del distrito donde ocurrió el nacimiento dentro del plazo legal establecido."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Presentar al registrador civil todos los documentos requeridos."
+        },
+        {
+          "numero": 4,
+          "descripcion": "El registrador revisará la documentación y registrará los datos del recién nacido en el libro de nacimientos."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Pagar la tasa correspondiente (si aplica) y recoger el recibo."
+        },
+        {
+          "numero": 6,
+          "descripcion": "Recoger el Certificado Literal de Nacimiento en el plazo indicado."
+        }
+      ],
+      "costo_estimado": "Gratuito o tasa mínima (menos de 5.000 XAF). Inscripciones tardías pueden generar costos adicionales.",
+      "tiempo_estimado": "Inmediato a 5 días hábiles",
+      "notas": "Guinea Ecuatorial ha ampliado su red de registradores civiles a los 21 distritos del país (desde 2025). Las inscripciones fuera del plazo legal (nacimientos tardíos) requieren un procedimiento especial. Se recomienda inscribir al bebé lo antes posible."
+    },
+    {
+      "id": "T004",
+      "nombre": "Inscripción de Matrimonio Civil",
+      "categoria": "Registro Civil",
+      "descripcion": "Trámite para celebrar y/o inscribir un matrimonio civil ante las autoridades del Estado. El matrimonio civil es el único reconocido legalmente a efectos de derechos patrimoniales y sucesorios.",
+      "entidad_responsable": "Registro Civil / Juzgado de Primera Instancia — Ministerio de Justicia, Culto e Instrucción Penitenciaria",
+      "ubicacion": {
+        "malabo": "Juzgado de Primera Instancia de Malabo / Registro Civil",
+        "bata": "Juzgado de Primera Instancia de Bata / Registro Civil",
+        "exterior": "Embajada de Guinea Ecuatorial (para ciudadanos en el extranjero)"
+      },
+      "horario": "Lunes a viernes, 08:00 – 14:00",
+      "documentos_requeridos": [
+        "Certificado literal de nacimiento de ambos contrayentes (reciente)",
+        "DNI de ambos contrayentes (original y copia)",
+        "Certificado de soltería o sentencia firme de divorcio de ambos contrayentes",
+        "Certificado de buena conducta de ambos contrayentes",
+        "Carta de consentimiento firmada por ambos contrayentes",
+        "Instancia de solicitud de fecha de matrimonio",
+        "Capitulaciones ante notario (en caso de régimen de separación de bienes)",
+        "Edicto matrimonial publicado previamente",
+        "Comprobante de pago de la tasa"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Reunir todos los documentos requeridos, asegurando que estén vigentes y en orden."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Presentar la solicitud de fecha de matrimonio en el Registro Civil o Juzgado correspondiente."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Publicación de edictos matrimoniales durante el período legalmente establecido para recibir posibles oposiciones."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Comparecer ambos contrayentes y los testigos en la fecha y hora señalados ante el registrador o juez."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Firma del acta de matrimonio por los contrayentes, testigos y el funcionario que oficia."
+        },
+        {
+          "numero": 6,
+          "descripcion": "Abonar la tasa correspondiente."
+        },
+        {
+          "numero": 7,
+          "descripcion": "Recoger el Certificado Literal de Matrimonio tras su inscripción en el Libro de Matrimonios."
+        }
+      ],
+      "costo_estimado": "10.000 – 30.000 XAF (orientativo, depende del tipo de ceremonia y gestiones adicionales)",
+      "tiempo_estimado": "15 a 30 días desde la solicitud (incluye período de edictos)",
+      "notas": "Es obligatoria la presencia física de ambos contrayentes. Para la inscripción de matrimonios celebrados en el extranjero, contactar directamente con el Registro Civil. El matrimonio religioso no tiene efectos civiles si no va acompañado de la inscripción civil."
+    },
+    {
+      "id": "T005",
+      "nombre": "Inscripción de Defunción en el Registro Civil",
+      "categoria": "Registro Civil",
+      "descripcion": "Trámite para registrar el fallecimiento de una persona ante las autoridades del Registro Civil. Es obligatorio y necesario para los trámites sucesorios, cancelación de documentos y percepción de prestaciones de supervivencia.",
+      "entidad_responsable": "Registro Civil / Instituto Nacional de Estadística (INEGE)",
+      "ubicacion": {
+        "malabo": "Oficina del Registro Civil de Malabo",
+        "bata": "Oficina del Registro Civil de Bata",
+        "otras": "Registradores civiles de distrito"
+      },
+      "horario": "Lunes a viernes, 08:00 – 14:00",
+      "documentos_requeridos": [
+        "Certificado médico de defunción expedido por médico o centro sanitario",
+        "DNI del fallecido (si se dispone de él)",
+        "DNI del declarante (familiar o testigo del fallecimiento)",
+        "Acta de matrimonio del fallecido (si estaba casado/a)",
+        "Comprobante de pago de la tasa (si aplica)"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Obtener el Certificado Médico de Defunción del médico o del hospital donde se produjo el fallecimiento."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Acudir lo antes posible (dentro de las primeras 24-72 horas) al Registro Civil del lugar donde ocurrió el fallecimiento."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Presentar la documentación al registrador civil."
+        },
+        {
+          "numero": 4,
+          "descripcion": "El registrador inscribe el fallecimiento en el Libro de Defunciones."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Recoger el Certificado Literal de Defunción, necesario para trámites sucesorios y gestiones con la Seguridad Social."
+        }
+      ],
+      "costo_estimado": "Gratuito o tasa mínima",
+      "tiempo_estimado": "Inmediato o 1-2 días hábiles",
+      "notas": "Conservar varios certificados originales de defunción, ya que serán necesarios para múltiples trámites posteriores (herencia, pensión de viudedad, cancelación de cuentas bancarias, etc.)."
+    },
+    {
+      "id": "T006",
+      "nombre": "Constitución y Registro de una Empresa (Ventanilla Única Empresarial)",
+      "categoria": "Actividad Empresarial",
+      "descripcion": "Trámite para crear, registrar y formalizar legalmente una empresa o negocio en Guinea Ecuatorial. Desde 2017, el proceso se centraliza en la Ventanilla Única Empresarial (VUE), dependiente del Ministerio de Comercio y Promoción de Pequeñas y Medianas Empresas.",
+      "entidad_responsable": "Ventanilla Única Empresarial (VUE) — Ministerio de Comercio y Promoción de PYMES",
+      "ubicacion": {
+        "malabo": "Ventanilla Única Empresarial, Avenida de la Libertad, Apdo. 272, Malabo",
+        "bata": "Delegación de la VUE en Bata (Región Continental)"
+      },
+      "horario": "Lunes a viernes, 08:00 – 15:00",
+      "documentos_requeridos": [
+        "DNI o pasaporte del fundador/socio principal (original y copia)",
+        "Borrador de los estatutos de la empresa (objeto social, denominación social, capital social, socios, domicilio)",
+        "Certificado negativo de denominación (confirmación de que el nombre de la empresa no existe previamente)",
+        "Comprobante de capital social inicial (depósito bancario u otro documento según tipo societario)",
+        "Dirección del domicilio social de la empresa",
+        "Lista de socios fundadores con sus datos y participaciones",
+        "Comprobante de pago de la tasa única"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Acudir a la Ventanilla Única Empresarial para recibir asesoramiento y confirmar la viabilidad del proyecto."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Solicitar el Certificado Negativo de Denominación para confirmar que el nombre elegido está disponible."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Redactar y legalizar los Estatutos de la empresa ante un Notario Público autorizado."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Inscribir los estatutos legalizados en el Registro Mercantil."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Solicitar el Número de Identificación Fiscal (NIF) ante la Dirección General de Impuestos (Ministerio de Hacienda)."
+        },
+        {
+          "numero": 6,
+          "descripcion": "Registrar la empresa en el ministerio sectorial correspondiente según el objeto social (Comercio, Industria, Turismo, etc.)."
+        },
+        {
+          "numero": 7,
+          "descripcion": "Inscribir la empresa en la Cámara Oficial de Comercio (obligatorio a partir del 1 de enero de 2026)."
+        },
+        {
+          "numero": 8,
+          "descripcion": "Registrar a los trabajadores en el INSESO (Instituto Nacional de Seguridad Social)."
+        }
+      ],
+      "costo_estimado": "Tasa notarial: 1% del capital social. NIF: 2% del capital. Registro Mercantil: 100.000 XAF (PYME) o 1.000.000 XAF (sociedades de mayor capital). Certificado Negativo: 3.000 XAF.",
+      "tiempo_estimado": "10 a 30 días hábiles con la VUE (proceso simplificado)",
+      "notas": "Desde 2026, todas las empresas deben inscribirse obligatoriamente en la Cámara Oficial de Comercio para poder contratar con el Estado. La VUE agrupa en un solo lugar todos los ministerios involucrados, evitando la necesidad de acudir a cada institución por separado."
+    },
+    {
+      "id": "T007",
+      "nombre": "Obtención del Número de Identificación Fiscal (NIF)",
+      "categoria": "Actividad Empresarial / Tributación",
+      "descripcion": "El NIF es el número que identifica a personas físicas y jurídicas ante la administración tributaria de Guinea Ecuatorial. Es obligatorio para ejercer actividades económicas, emitir facturas y contratar con el Estado.",
+      "entidad_responsable": "Dirección General de Impuestos — Ministerio de Hacienda, Economía y Planificación",
+      "ubicacion": {
+        "malabo": "Dirección General de Impuestos, Ministerio de Hacienda, Malabo",
+        "bata": "Delegación de Hacienda en Bata"
+      },
+      "horario": "Lunes a viernes, 08:00 – 14:00",
+      "documentos_requeridos": [
+        "DNI del solicitante o representante legal (original y copia)",
+        "Escritura notarial de constitución de la empresa (para personas jurídicas)",
+        "Formulario de solicitud de NIF debidamente cumplimentado",
+        "Comprobante del domicilio fiscal",
+        "Comprobante de pago de la tasa"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Acudir a la Dirección General de Impuestos con la documentación completa."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Rellenar el formulario oficial de solicitud de NIF."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Presentar la documentación al funcionario de ventanilla."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Abonar la tasa correspondiente (2% del capital social para empresas)."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Recoger el certificado de NIF en el plazo indicado."
+        }
+      ],
+      "costo_estimado": "2% del capital social para personas jurídicas. Para personas físicas/autónomos, tasa fija (aprox. 10.000 – 30.000 XAF).",
+      "tiempo_estimado": "3 a 10 días hábiles",
+      "notas": "El NIF es indispensable para todas las operaciones comerciales, pago de impuestos, importación/exportación y contratación pública. Se realiza a través de la VUE como parte del proceso de constitución de empresa."
+    },
+    {
+      "id": "T008",
+      "nombre": "Licencia de Conducir (Carnet de Conducción Nacional)",
+      "categoria": "Transporte y Movilidad",
+      "descripcion": "Documento obligatorio que habilita a una persona para conducir vehículos a motor en el territorio nacional. Es emitido por las autoridades de tráfico del Ministerio de Seguridad Nacional.",
+      "entidad_responsable": "Ministerio de Seguridad Nacional — Dirección de Tráfico y Seguridad Vial",
+      "ubicacion": {
+        "malabo": "Dirección de Tráfico, Malabo",
+        "bata": "Delegación de Tráfico, Bata"
+      },
+      "horario": "Lunes a viernes, 08:00 – 14:00",
+      "documentos_requeridos": [
+        "DNI vigente (original y copia)",
+        "Certificado médico de aptitud física y visual (expedido por médico autorizado)",
+        "2 fotografías recientes tamaño carné",
+        "Justificante de haber superado el examen teórico de tráfico",
+        "Justificante de haber superado el examen práctico de conducción",
+        "Comprobante de pago de la tasa"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Obtener el certificado médico de aptitud en un centro de salud o médico autorizado."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Matricularse en una autoescuela legalmente reconocida en Malabo o Bata para recibir formación teórica y práctica."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Estudiar el código de circulación y realizar el examen teórico ante las autoridades de tráfico."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Superar el examen práctico de conducción en el circuito o ruta designada por la Dirección de Tráfico."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Presentar la documentación completa y el justificante de los exámenes superados en la ventanilla de tráfico."
+        },
+        {
+          "numero": 6,
+          "descripcion": "Abonar la tasa correspondiente."
+        },
+        {
+          "numero": 7,
+          "descripcion": "Recoger la licencia de conducir en el plazo indicado."
+        }
+      ],
+      "costo_estimado": "30.000 – 60.000 XAF (tasa oficial, sin incluir el costo de la autoescuela)",
+      "tiempo_estimado": "Variable según el período de formación; el trámite administrativo toma 7-15 días hábiles",
+      "notas": "La licencia de conducir ecuatoguineana permite conducir en Guinea Ecuatorial y puede necesitar reconversión para conducir en otros países. Para conducir en el extranjero, se requiere adicionalmente un Permiso Internacional de Conducción (PIC)."
+    },
+    {
+      "id": "T009",
+      "nombre": "Matriculación / Registro de Vehículo de Motor",
+      "categoria": "Transporte y Movilidad",
+      "descripcion": "Trámite para inscribir un vehículo de motor (automóvil, motocicleta, camión, etc.) en el registro oficial y obtener las placas de matrícula ecuatoguineanas. Es obligatorio para circular legalmente en el territorio nacional.",
+      "entidad_responsable": "Ministerio de Seguridad Nacional — Dirección de Tráfico y Seguridad Vial",
+      "ubicacion": {
+        "malabo": "Dirección de Tráfico, Malabo",
+        "bata": "Delegación de Tráfico, Bata"
+      },
+      "horario": "Lunes a viernes, 08:00 – 14:00",
+      "documentos_requeridos": [
+        "DNI o pasaporte del propietario del vehículo (original y copia)",
+        "Factura de compra o documento de transferencia del vehículo",
+        "Declaración aduanera (para vehículos importados) o comprobante de pago de aranceles",
+        "Certificado técnico del vehículo (inspección técnica)",
+        "Seguro obligatorio del vehículo vigente",
+        "Comprobante de pago de la tasa de matriculación"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Obtener la documentación de propiedad del vehículo (factura de compra o contrato de compraventa legalizado)."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Si el vehículo es importado, completar los trámites de importación y pago de aranceles en la Aduana."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Someter el vehículo a la inspección técnica oficial para obtener el certificado técnico."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Contratar el seguro obligatorio del vehículo en una compañía aseguradora autorizada (ej. EGICO)."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Presentar toda la documentación en la Dirección de Tráfico."
+        },
+        {
+          "numero": 6,
+          "descripcion": "Abonar la tasa de matriculación."
+        },
+        {
+          "numero": 7,
+          "descripcion": "Recoger las placas de matrícula y el permiso de circulación."
+        }
+      ],
+      "costo_estimado": "50.000 – 150.000 XAF (según tipo y cilindrada del vehículo, más aranceles de importación si aplica)",
+      "tiempo_estimado": "7 a 21 días hábiles",
+      "notas": "Los vehículos importados deben pasar por la Aduana y pagar los aranceles correspondientes según el Arancel Aduanero Común de la CEMAC. El seguro obligatorio debe renovarse anualmente."
+    },
+    {
+      "id": "T010",
+      "nombre": "Licencia de Construcción / Permiso de Obra",
+      "categoria": "Urbanismo y Propiedad",
+      "descripcion": "Autorización municipal obligatoria para construir, reformar o ampliar inmuebles en territorio ecuatoguineano. Sin este permiso, la construcción es ilegal y puede ser demolida.",
+      "entidad_responsable": "Ayuntamiento de Malabo / Ayuntamiento de Bata — Área de Urbanismo",
+      "ubicacion": {
+        "malabo": "Ayuntamiento de Malabo, Área de Urbanismo y Obras",
+        "bata": "Ayuntamiento de Bata, Área de Urbanismo y Obras"
+      },
+      "horario": "Lunes a viernes, 08:00 – 14:00",
+      "documentos_requeridos": [
+        "Instancia de solicitud de licencia de construcción",
+        "Memoria descriptiva del proyecto de obra",
+        "Planos de la construcción (planta, alzado, secciones) firmados por arquitecto o técnico competente",
+        "Estado de medición del terreno a construir",
+        "Presupuesto estimativo de la obra",
+        "Título de propiedad del terreno, certificado de la Comunidad de Vecinos o Consejo de Poblado",
+        "DNI o NIF del solicitante",
+        "Comprobante de pago de la tasa (según Ordenanza Fiscal nº 4/2018)"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Contratar a un técnico o arquitecto para elaborar el proyecto de construcción con planos y memoria descriptiva."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Verificar que el terreno tiene título de propiedad o documento que acredite el derecho de uso."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Presentar la solicitud de licencia junto con toda la documentación técnica en el Área de Urbanismo del Ayuntamiento."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Los técnicos municipales revisarán la documentación y realizarán una inspección del terreno si fuera necesario."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Abonar la tasa de licencia de construcción según el presupuesto de la obra y la tarifa vigente."
+        },
+        {
+          "numero": 6,
+          "descripcion": "Una vez aprobado, recoger la licencia de construcción antes de iniciar las obras."
+        },
+        {
+          "numero": 7,
+          "descripcion": "Conservar la licencia en obra durante toda la ejecución para presentarla a los inspectores municipales."
+        }
+      ],
+      "costo_estimado": "Variable según el presupuesto de la obra (porcentaje del presupuesto; consultar Ordenanza Fiscal nº 4/2018 del Ayuntamiento de Malabo)",
+      "tiempo_estimado": "30 a 60 días hábiles",
+      "notas": "Las tasas y los procedimientos están regulados por la Ordenanza Fiscal nº 4/2018 del Ayuntamiento de Malabo. Para reformas menores, puede existir un procedimiento simplificado. Iniciar obras sin licencia puede conllevar sanciones y derribo."
+    },
+    {
+      "id": "T011",
+      "nombre": "Afiliación a la Seguridad Social (INSESO)",
+      "categoria": "Trabajo y Seguridad Social",
+      "descripcion": "Trámite para inscribir a un trabajador o empresa en el sistema de la Seguridad Social de Guinea Ecuatorial. La afiliación es obligatoria para todo trabajador asalariado y permite acceder a prestaciones de salud, accidente, jubilación y familia.",
+      "entidad_responsable": "Instituto Nacional de Seguridad Social de Guinea Ecuatorial (INSESO)",
+      "ubicacion": {
+        "malabo": "Sede central del INSESO, Malabo",
+        "bata": "Delegación del INSESO en Bata",
+        "otras": "Delegaciones provinciales y regionales del INSESO en todo el país"
+      },
+      "horario": "Lunes a viernes, 08:00 – 14:00",
+      "documentos_requeridos": [
+        "DNI del trabajador (original y copia)",
+        "Contrato de trabajo firmado por empleador y empleado",
+        "NIF de la empresa empleadora",
+        "Formulario de alta de trabajador del INSESO debidamente cumplimentado",
+        "Datos bancarios del trabajador para acreditación de prestaciones",
+        "Certificado de nacimiento (para algunas prestaciones familiares)"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "El empleador debe estar previamente registrado en el INSESO como empresa cotizante."
+        },
+        {
+          "numero": 2,
+          "descripcion": "En el momento de la contratación, el empleador debe presentar el alta del trabajador ante el INSESO."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Cumplimentar el formulario de afiliación con los datos personales y laborales del trabajador."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Presentar la documentación en la sede o delegación del INSESO correspondiente."
+        },
+        {
+          "numero": 5,
+          "descripcion": "El INSESO asigna un número de afiliación al trabajador."
+        },
+        {
+          "numero": 6,
+          "descripcion": "El empleador realiza mensualmente las cotizaciones sociales obligatorias en nombre del trabajador."
+        }
+      ],
+      "costo_estimado": "Gratuito (el coste es la cotización mensual obligatoria, que es un porcentaje del salario compartido entre empresa y trabajador)",
+      "tiempo_estimado": "3 a 7 días hábiles",
+      "notas": "La afiliación es un derecho y obligación del trabajador. El INSESO cubre: atención sanitaria, accidentes laborales, prestaciones familiares, invalidez, jubilación y pensiones de supervivencia. Los autónomos también pueden afiliarse voluntariamente."
+    },
+    {
+      "id": "T012",
+      "nombre": "Solicitud de Pensión de Jubilación (INSESO)",
+      "categoria": "Trabajo y Seguridad Social",
+      "descripcion": "Trámite para solicitar la pensión de jubilación por vejez al alcanzar la edad legal de retiro. Las pensiones son gestionadas por el INSESO. La pensión se paga mensualmente al trabajador que ha cumplido los requisitos de edad y cotización.",
+      "entidad_responsable": "Instituto Nacional de Seguridad Social de Guinea Ecuatorial (INSESO)",
+      "ubicacion": {
+        "malabo": "Sede central del INSESO, Malabo",
+        "bata": "Delegación del INSESO en Bata"
+      },
+      "horario": "Lunes a viernes, 08:00 – 14:00",
+      "documentos_requeridos": [
+        "DNI vigente del solicitante (original y copia)",
+        "Certificado de nacimiento del solicitante",
+        "Historial de cotizaciones al INSESO (se solicita al INSESO)",
+        "Carta de cese laboral o baja de la empresa empleadora",
+        "Últimas nóminas o comprobantes de cotización recientes",
+        "Número de cuenta bancaria para el abono de la pensión",
+        "Formulario de solicitud de pensión de jubilación del INSESO"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Verificar con el INSESO el historial de cotizaciones y confirmar que se cumplen los requisitos de edad y años cotizados."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Comunicar a la empresa empleadora la decisión de jubilarse y solicitar la carta de cese laboral."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Reunir toda la documentación requerida."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Presentar la solicitud de jubilación en la sede o delegación del INSESO."
+        },
+        {
+          "numero": 5,
+          "descripcion": "El INSESO revisará el expediente y calculará el importe de la pensión según el historial de cotizaciones."
+        },
+        {
+          "numero": 6,
+          "descripcion": "Una vez aprobada, la pensión se abona mensualmente en la cuenta bancaria indicada."
+        }
+      ],
+      "costo_estimado": "Gratuito",
+      "tiempo_estimado": "30 a 90 días hábiles (revisión y aprobación del expediente)",
+      "notas": "La edad de jubilación ordinaria en Guinea Ecuatorial es de 60 años para hombres y mujeres. El importe de la pensión depende del número de años cotizados y de los salarios sobre los que se cotizó. El INSESO detectó en 2024 más de 2.000 pensionistas irregulares, por lo que se realizan auditorías."
+    },
+    {
+      "id": "T013",
+      "nombre": "Certificado de Antecedentes Penales",
+      "categoria": "Documentación Legal",
+      "descripcion": "Documento oficial que acredita que una persona no tiene condenas penales registradas en Guinea Ecuatorial. Es requerido para trámites de empleo, matrimonio, residencia en el extranjero, adopción y otros procesos administrativos.",
+      "entidad_responsable": "Ministerio de Justicia, Culto e Instrucción Penitenciaria / Ministerio de Seguridad Nacional",
+      "ubicacion": {
+        "malabo": "Ministerio de Justicia o Dirección General de Seguridad, Malabo",
+        "bata": "Delegación de Justicia o Seguridad, Bata",
+        "exterior": "Embajada de Guinea Ecuatorial en el país de residencia"
+      },
+      "horario": "Lunes a viernes, 08:00 – 14:00",
+      "documentos_requeridos": [
+        "DNI o pasaporte vigente (original y copia)",
+        "Formulario oficial de solicitud debidamente cumplimentado",
+        "2 fotografías tamaño carné recientes",
+        "Comprobante de pago de la tasa correspondiente"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Acudir a la institución competente (Ministerio de Justicia o Dirección de Seguridad) con los documentos requeridos."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Solicitar y rellenar el formulario de solicitud del Certificado de Antecedentes Penales."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Entregar la documentación al funcionario de ventanilla."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Abonar la tasa correspondiente y guardar el comprobante."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Recoger el certificado en el plazo indicado, presentando el comprobante de solicitud y el DNI."
+        }
+      ],
+      "costo_estimado": "5.000 – 15.000 XAF",
+      "tiempo_estimado": "3 a 10 días hábiles",
+      "notas": "El certificado tiene una vigencia limitada (generalmente 3 a 6 meses), por lo que debe solicitarse con antelación al trámite para el que se requiere. Para uso en el extranjero, puede necesitar legalización diplomática."
+    },
+    {
+      "id": "T014",
+      "nombre": "Certificado de Buena Conducta / Residencia",
+      "categoria": "Documentación Legal",
+      "descripcion": "Documento que acredita que una persona tiene buena conducta en su comunidad o que reside en un determinado lugar. Es expedido por las autoridades comunitarias o la policía local. Es requerido para trámites de residencia, empleo y registro de extranjeros.",
+      "entidad_responsable": "Consejo de Poblado o Comunidad de Vecinos (para conducta) / Comisaría de Policía o Dirección de Seguridad (para residencia)",
+      "ubicacion": {
+        "todas": "Consejo de Poblado o Comunidad de Vecinos del lugar de residencia del solicitante / Comisaría local"
+      },
+      "horario": "Variable según la comunidad. Generalmente: lunes a viernes, 08:00 – 14:00",
+      "documentos_requeridos": [
+        "DNI o pasaporte vigente del solicitante",
+        "Comprobante de residencia (recibo de luz, agua, contrato de arrendamiento)"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Acudir al Consejo de Poblado, Comunidad de Vecinos o comisaría del barrio o poblado donde se reside."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Presentar el DNI o pasaporte y el comprobante de residencia."
+        },
+        {
+          "numero": 3,
+          "descripcion": "La autoridad comunitaria o policial verifica la identidad y la residencia del solicitante."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Se emite y firma el certificado por la autoridad competente."
+        }
+      ],
+      "costo_estimado": "Gratuito o tasa mínima (menos de 3.000 XAF en algunos casos)",
+      "tiempo_estimado": "Inmediato a 3 días",
+      "notas": "Para extranjeros que solicitan la regularización de su residencia, el certificado debe ser emitido por la comunidad de vecinos o consejo de poblado donde residen, tal como establece el Ministerio de Seguridad Nacional."
+    },
+    {
+      "id": "T015",
+      "nombre": "Regularización de Residencia para Extranjeros",
+      "categoria": "Extranjería e Inmigración",
+      "descripcion": "Trámite para que los ciudadanos extranjeros obtengan su Documento de Residencia legal en Guinea Ecuatorial (primera expedición o renovación). Es obligatorio para residir y trabajar legalmente en el país.",
+      "entidad_responsable": "Ministerio de Seguridad Nacional — Dirección General de Extranjería y Fronteras",
+      "ubicacion": {
+        "malabo": "Dirección General de Extranjería y Fronteras, Ministerio de Seguridad Nacional, Malabo",
+        "bata": "Delegación de Extranjería, Bata"
+      },
+      "horario": "Lunes a viernes, 08:00 – 14:00",
+      "documentos_requeridos": [
+        "Pasaporte en vigor con sello de entrada por puerto fronterizo reconocido",
+        "Visado de larga duración (superior a 90 días) o visado de trabajo vigente",
+        "Permanencia previa o prórroga emitida por el Ministerio de Seguridad Nacional",
+        "Certificado de buena conducta de la comunidad de vecinos o consejo de poblado",
+        "Autorización gubernativa o NIF (para personas jurídicas que avalen al extranjero)",
+        "Contrato de trabajo en vigor (si aplica)",
+        "2 fotografías recientes tamaño carné",
+        "Comprobante de pago de la tasa"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Asegurarse de haber entrado al país por un puerto fronterizo reconocido con el sello de entrada en el pasaporte."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Reunir toda la documentación requerida, incluyendo el certificado de buena conducta de la comunidad de vecinos."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Acudir a la Dirección General de Extranjería y Fronteras con el expediente completo."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Presentar la solicitud y la documentación en la ventanilla correspondiente."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Abonar la tasa correspondiente."
+        },
+        {
+          "numero": 6,
+          "descripcion": "Recoger el documento de residencia en el plazo indicado."
+        }
+      ],
+      "costo_estimado": "Variable según el tipo de residencia (orientativo: 50.000 – 200.000 XAF)",
+      "tiempo_estimado": "30 a 90 días hábiles",
+      "notas": "Los extranjeros que hayan entrado ilegalmente (por fronteras no reconocidas) NO podrán regularizar su situación en el país y deben regresar a su país de origen para tramitar el visado desde allí. Se prohíbe a empresas y particulares contratar a extranjeros no regularizados."
+    },
+    {
+      "id": "T016",
+      "nombre": "Declaración y Pago de Impuestos (Personas Físicas y Jurídicas)",
+      "categoria": "Tributación y Hacienda",
+      "descripcion": "Trámite para declarar y pagar los impuestos correspondientes ante la Hacienda Pública ecuatoguineana, conforme a la Ley Tributaria nº 4/2004. Aplica tanto a personas físicas (trabajadores por cuenta propia, empresarios) como a personas jurídicas (empresas).",
+      "entidad_responsable": "Dirección General de Impuestos — Ministerio de Hacienda, Economía y Planificación",
+      "ubicacion": {
+        "malabo": "Ministerio de Hacienda, Economía y Planificación, Malabo",
+        "bata": "Delegación de Hacienda, Bata"
+      },
+      "horario": "Lunes a viernes, 08:00 – 14:00",
+      "documentos_requeridos": [
+        "NIF de la empresa o persona física",
+        "DNI del representante legal o titular",
+        "Libros contables o estados financieros del ejercicio fiscal",
+        "Nóminas de trabajadores y justificantes de retenciones (para empresas)",
+        "Formularios oficiales de declaración del impuesto correspondiente",
+        "Comprobantes de pagos parciales o retenciones realizadas durante el año"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Obtener el NIF si no se dispone de él (ver trámite T007)."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Llevar la contabilidad al día según las normas contables vigentes en Guinea Ecuatorial."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Al cierre del ejercicio fiscal, elaborar la declaración de impuestos correspondiente (Impuesto sobre la Renta de Sociedades, IRP para personas físicas, IVA, etc.)."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Presentar la declaración en la Dirección General de Impuestos dentro del plazo legalmente establecido."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Abonar el importe correspondiente en la entidad bancaria designada."
+        },
+        {
+          "numero": 6,
+          "descripcion": "Conservar los comprobantes de pago y las declaraciones durante al menos 5 años."
+        }
+      ],
+      "costo_estimado": "El monto depende de la actividad económica y los beneficios. La tasa del Impuesto sobre Sociedades es del 35%. El IVA estándar es del 15%.",
+      "tiempo_estimado": "Variable según complejidad. Presentación de declaración: 1 día.",
+      "notas": "Los incumplimientos o retrasos en el pago de impuestos generan multas e intereses. Se recomienda contar con un asesor contable o fiscal. Para más detalles, consultar la Ley Tributaria nº 4/2004 en el Boletín Oficial del Estado (boe.gob.gq)."
+    },
+    {
+      "id": "T017",
+      "nombre": "Inscripción en la Cámara Oficial de Comercio",
+      "categoria": "Actividad Empresarial",
+      "descripcion": "Obligación legal para todas las empresas que operan en Guinea Ecuatorial a partir del 1 de enero de 2026. La inscripción es requisito indispensable para contratar, facturar u operar con el Estado y sus instituciones.",
+      "entidad_responsable": "Cámara Oficial de Comercio de Guinea Ecuatorial",
+      "ubicacion": {
+        "malabo": "Sede de la Cámara de Comercio, Malabo",
+        "bata": "Delegación de la Cámara de Comercio, Bata"
+      },
+      "horario": "Lunes a viernes, 08:00 – 15:00",
+      "documentos_requeridos": [
+        "Escritura notarial de constitución de la empresa",
+        "NIF de la empresa",
+        "DNI del representante legal",
+        "Certificado de inscripción en el Registro Mercantil",
+        "Comprobante del domicilio social",
+        "Comprobante de pago de la cuota anual de inscripción"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Asegurarse de tener la empresa formalmente constituida con escritura notarial, NIF y Registro Mercantil."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Acudir a la Cámara Oficial de Comercio y solicitar información sobre el baremo de cuotas aplicable a su sector."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Rellenar el formulario de solicitud de inscripción con los datos de la empresa."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Presentar la documentación requerida en la ventanilla de la Cámara de Comercio."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Abonar la cuota de inscripción según el baremo del sector (sectores: petrolero, financiero, agropecuario, comercial, industrial, transportes, hostelería, servicios profesionales, etc.)."
+        },
+        {
+          "numero": 6,
+          "descripcion": "Recoger el certificado de inscripción en la Cámara de Comercio."
+        },
+        {
+          "numero": 7,
+          "descripcion": "Renovar la inscripción y pagar la cuota anual cada año para mantener la validez."
+        }
+      ],
+      "costo_estimado": "Variable según sector y tamaño de la empresa (descargar baremo oficial en la Cámara de Comercio)",
+      "tiempo_estimado": "3 a 7 días hábiles",
+      "notas": "A partir del 1 de enero de 2026, las empresas no inscritas no podrán contratar con el Estado. La inscripción anual es obligatoria para mantener la validez. Consultar el baremo oficial en: https://ahoraeg.com/politica/2025/12/16/"
+    },
+    {
+      "id": "T018",
+      "nombre": "Permiso Sanitario para Establecimientos Alimentarios",
+      "categoria": "Salud Pública y Comercio",
+      "descripcion": "Autorización sanitaria obligatoria para abrir y operar establecimientos relacionados con la elaboración, distribución o venta de alimentos y bebidas (restaurantes, bares, mercados, panaderías, etc.).",
+      "entidad_responsable": "Ministerio de Sanidad y Bienestar Social — Dirección General de Salud Pública",
+      "ubicacion": {
+        "malabo": "Ministerio de Sanidad y Bienestar Social, Malabo",
+        "bata": "Delegación de Sanidad, Bata",
+        "otras": "Delegaciones sanitarias provinciales"
+      },
+      "horario": "Lunes a viernes, 08:00 – 14:00",
+      "documentos_requeridos": [
+        "DNI o NIF del titular del establecimiento",
+        "Licencia de apertura del local (del Ayuntamiento)",
+        "Plano del establecimiento indicando área de cocina, almacén, aseos y atención al público",
+        "Certificados sanitarios del personal manipulador de alimentos",
+        "Memoria descriptiva del tipo de actividad y productos que se van a elaborar/vender",
+        "Comprobante de pago de la tasa sanitaria"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Obtener previamente la Licencia de Apertura del local en el Ayuntamiento correspondiente."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Asegurarse de que las instalaciones cumplen las condiciones higiénico-sanitarias (agua potable, sistema de eliminación de residuos, etc.)."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Formar al personal en manipulación higiénica de alimentos y obtener sus certificados sanitarios."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Presentar la solicitud de permiso sanitario en la Dirección de Salud Pública con toda la documentación."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Un inspector de sanidad visitará el establecimiento para verificar las condiciones."
+        },
+        {
+          "numero": 6,
+          "descripcion": "Si todo está en orden, se emite el Permiso Sanitario de Funcionamiento."
+        },
+        {
+          "numero": 7,
+          "descripcion": "Renovar el permiso periódicamente según lo establezca la normativa vigente."
+        }
+      ],
+      "costo_estimado": "15.000 – 50.000 XAF (orientativo, depende del tipo de establecimiento)",
+      "tiempo_estimado": "15 a 30 días hábiles",
+      "notas": "Operar sin permiso sanitario puede conllevar el cierre del establecimiento y multas. Los establecimientos deben mantener los estándares de higiene en todo momento y estar sujetos a inspecciones periódicas."
+    },
+    {
+      "id": "T019",
+      "nombre": "Matrícula Escolar en Centro de Educación Pública",
+      "categoria": "Educación",
+      "descripcion": "Trámite para inscribir a un menor en un centro de enseñanza pública (educación primaria, secundaria o bachillerato). La educación primaria es obligatoria y gratuita en Guinea Ecuatorial.",
+      "entidad_responsable": "Ministerio de Educación y Ciencia",
+      "ubicacion": {
+        "todas": "Centro escolar público más cercano al domicilio del alumno / Dirección Provincial de Educación"
+      },
+      "horario": "Período de matrícula: generalmente julio-septiembre. Horario de secretaría: 08:00 – 13:00",
+      "documentos_requeridos": [
+        "Certificado de nacimiento del menor",
+        "DNI o pasaporte del padre/madre/tutor",
+        "Libro de familia o documento equivalente (si se dispone)",
+        "Certificado de estudios previos o informe escolar del curso anterior (para traslados o acceso a cursos superiores)",
+        "Cartilla de vacunación al día del menor",
+        "2 fotografías del menor (tamaño carné)"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Identificar el centro escolar público del barrio o zona de residencia correspondiente."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Acudir a la secretaría del centro durante el período de matrícula con la documentación completa."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Presentar la documentación al secretario del centro."
+        },
+        {
+          "numero": 4,
+          "descripcion": "El centro verifica los documentos y asigna al alumno a un aula y turno."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Recoger el justificante de matrícula y los horarios de clase."
+        }
+      ],
+      "costo_estimado": "Gratuito para la educación pública primaria. Puede haber pequeñas tasas administrativas en secundaria.",
+      "tiempo_estimado": "Inmediato a 3 días hábiles",
+      "notas": "La educación primaria en Guinea Ecuatorial se imparte en español y francés. Para la Universidad Nacional de Guinea Ecuatorial (UNGE), el proceso de admisión tiene requisitos adicionales y un proceso de selectividad propio."
+    },
+    {
+      "id": "T020",
+      "nombre": "Legalización de Documentos Públicos para Uso en el Extranjero",
+      "categoria": "Documentación Legal",
+      "descripcion": "Trámite para autenticar documentos públicos ecuatoguineanos (certificados de nacimiento, matrimonio, antecedentes penales, títulos académicos, etc.) para que tengan validez legal en el extranjero. Guinea Ecuatorial NO es parte del Convenio de La Haya (Apostilla), por lo que se aplica la legalización diplomática.",
+      "entidad_responsable": "Ministerio de Asuntos Exteriores y Cooperación Internacional (para legalización final) / Juzgado de 1ª Instancia o Notaría (para autenticación previa)",
+      "ubicacion": {
+        "malabo": "1. Juzgado de Instrucción o Notaría de Malabo → 2. Ministerio de Asuntos Exteriores, Malabo → 3. Embajada del país de destino en Malabo",
+        "bata": "Consulado General de España en Bata (para documentos destinados a España). Para otros países: Consulado competente"
+      },
+      "horario": "Lunes a jueves, 09:00 – 10:00 (ventanilla de legalizaciones en Embajada de España en Malabo). Tasa: 5.000 XAF por documento.",
+      "documentos_requeridos": [
+        "Documento original a legalizar",
+        "Copia del documento original",
+        "DNI o pasaporte del solicitante",
+        "Comprobante de pago de la tasa de legalización por cada documento"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Obtener el documento público original que se desea legalizar (certificado de nacimiento, título, etc.)."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Autenticar el documento ante un Juez de Primera Instancia, Notario autorizado o Director General del Ministerio competente en Malabo."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Presentar el documento autenticado en el Ministerio de Asuntos Exteriores de Guinea Ecuatorial para su legalización por cadena diplomática."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Presentar el documento en la Embajada o Consulado del país de destino en Guinea Ecuatorial para el reconocimiento final."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Abonar las tasas correspondientes en cada etapa del proceso."
+        }
+      ],
+      "costo_estimado": "5.000 XAF por documento (tasa en Embajada de España). Tasas adicionales en Ministerio de Exteriores y notaría.",
+      "tiempo_estimado": "15 a 45 días hábiles (proceso completo)",
+      "notas": "Guinea Ecuatorial NO forma parte del Convenio de la Haya de 1961 (Apostilla), por lo que los documentos deben pasar por la cadena completa de legalización diplomática. Para documentos emitidos en la Región Continental, la legalización se tramita ante el Consulado General de España en Bata."
+    },
+    {
+      "id": "T021",
+      "nombre": "Registro de Propiedad Inmobiliaria / Título de Propiedad",
+      "categoria": "Urbanismo y Propiedad",
+      "descripcion": "Trámite para inscribir la propiedad de un inmueble (terreno, casa, local) a nombre de su propietario en el Registro de la Propiedad. Es fundamental para acreditar legalmente la titularidad del bien y protegerlo frente a terceros.",
+      "entidad_responsable": "Ministerio de Justicia, Culto e Instrucción Penitenciaria — Registro de la Propiedad",
+      "ubicacion": {
+        "malabo": "Registro de la Propiedad, Ministerio de Justicia, Malabo",
+        "bata": "Delegación del Registro de la Propiedad, Bata"
+      },
+      "horario": "Lunes a viernes, 08:00 – 14:00",
+      "documentos_requeridos": [
+        "Escritura pública de compraventa o cesión, legalizada ante notario",
+        "DNI o pasaporte del comprador/propietario (original y copia)",
+        "DNI o pasaporte del vendedor/cedente",
+        "Plano catastral del inmueble",
+        "Comprobante de pago del impuesto de transmisiones patrimoniales",
+        "Certificado de deudas del inmueble (cargas, hipotecas, embargos)",
+        "Comprobante de pago de la tasa de inscripción registral"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Formalizar la compraventa o cesión del inmueble ante un Notario Público autorizado, quien redactará la escritura pública."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Pagar el impuesto de transmisiones patrimoniales correspondiente en la Dirección de Impuestos."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Presentar la escritura notarial y toda la documentación en el Registro de la Propiedad."
+        },
+        {
+          "numero": 4,
+          "descripcion": "El registrador verificará la documentación y realizará una nota de presentación."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Abonar la tasa de inscripción registral."
+        },
+        {
+          "numero": 6,
+          "descripcion": "Una vez inscrito, recoger el título de propiedad registrado con el número de inscripción en el Libro de Propiedades."
+        }
+      ],
+      "costo_estimado": "Variable según el valor del inmueble (impuesto de transmisiones + tasas registrales; orientativo: 3-5% del valor del inmueble)",
+      "tiempo_estimado": "30 a 60 días hábiles",
+      "notas": "La inscripción en el Registro de la Propiedad protege jurídicamente al propietario frente a reclamaciones de terceros. Se recomienda encarecidamente registrar cualquier propiedad adquirida. Sin título registrado, la propiedad puede ser objeto de disputas legales."
+    },
+    {
+      "id": "T022",
+      "nombre": "Solicitud de Prestaciones Familiares (INSESO)",
+      "categoria": "Trabajo y Seguridad Social",
+      "descripcion": "Trámite para solicitar al INSESO las prestaciones económicas destinadas a la familia de un trabajador afiliado: subsidio de maternidad, prestación por nacimiento de hijo, asignación familiar, prestación por invalidez o prestaciones de supervivencia (viudedad y orfandad).",
+      "entidad_responsable": "Instituto Nacional de Seguridad Social de Guinea Ecuatorial (INSESO)",
+      "ubicacion": {
+        "malabo": "Sede central del INSESO, Malabo",
+        "bata": "Delegación del INSESO en Bata",
+        "otras": "Delegaciones provinciales del INSESO"
+      },
+      "horario": "Lunes a viernes, 08:00 – 14:00",
+      "documentos_requeridos": [
+        "DNI del trabajador afiliado y del beneficiario",
+        "Número de afiliación al INSESO del trabajador",
+        "Certificado de nacimiento del hijo (para prestación por nacimiento o asignación familiar)",
+        "Certificado de matrimonio (para prestaciones de viudedad)",
+        "Certificado de defunción del causante (para pensiones de supervivencia)",
+        "Historial de cotizaciones al INSESO",
+        "Número de cuenta bancaria para el cobro de la prestación",
+        "Formulario específico de la prestación solicitada"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Verificar que se cumplen los requisitos específicos para la prestación a solicitar (período mínimo de cotización, etc.)."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Reunir la documentación específica según el tipo de prestación (maternidad, nacimiento, orfandad, etc.)."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Solicitar y cumplimentar el formulario específico del INSESO para la prestación correspondiente."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Presentar el expediente completo en la sede o delegación del INSESO."
+        },
+        {
+          "numero": 5,
+          "descripcion": "El INSESO revisa el expediente y verifica el historial de cotizaciones."
+        },
+        {
+          "numero": 6,
+          "descripcion": "Una vez aprobada la prestación, el INSESO inicia el abono en la cuenta bancaria indicada."
+        }
+      ],
+      "costo_estimado": "Gratuito",
+      "tiempo_estimado": "15 a 60 días hábiles según el tipo de prestación",
+      "notas": "El derecho a prestaciones familiares está supeditado al cumplimiento del período mínimo de cotización. Es importante comunicar al INSESO cualquier cambio de situación (nacimiento, fallecimiento, matrimonio) en el menor tiempo posible para no perder derechos."
+    },
+    {
+      "id": "T023",
+      "nombre": "Permiso de Importación / Autorización Aduanera",
+      "categoria": "Comercio Exterior y Aduanas",
+      "descripcion": "Trámite para importar mercancías al territorio de Guinea Ecuatorial cumpliendo con los procedimientos aduaneros de la CEMAC. Aplica a empresas y particulares que introduzcan bienes desde el extranjero.",
+      "entidad_responsable": "Dirección General de Aduanas — Ministerio de Hacienda, Economía y Planificación",
+      "ubicacion": {
+        "malabo": "Aduana del Puerto de Malabo / Aeropuerto Internacional de Malabo",
+        "bata": "Aduana del Puerto de Bata / Aeropuerto de Bata"
+      },
+      "horario": "Lunes a viernes, 08:00 – 17:00 (puertos y aeropuertos pueden tener horario extendido)",
+      "documentos_requeridos": [
+        "NIF de la empresa o DNI del importador",
+        "Factura comercial de la mercancía importada",
+        "Lista de empaque (packing list) con detalle de contenidos",
+        "Conocimiento de embarque (Bill of Lading) o guía aérea",
+        "Certificado de origen de la mercancía",
+        "Seguro de la mercancía importada",
+        "Declaración de Importación en Aduana (formulario oficial)",
+        "Comprobante de pago de aranceles según el Arancel Aduanero Común de la CEMAC"
+      ],
+      "pasos": [
+        {
+          "numero": 1,
+          "descripcion": "Verificar los aranceles aplicables a la mercancía según la clasificación arancelaria CEMAC."
+        },
+        {
+          "numero": 2,
+          "descripcion": "Tramitar el seguro y obtener toda la documentación del proveedor extranjero (factura, lista de empaque, BL/guía aérea, certificado de origen)."
+        },
+        {
+          "numero": 3,
+          "descripcion": "Presentar la Declaración de Importación en la Aduana del puerto o aeropuerto de entrada."
+        },
+        {
+          "numero": 4,
+          "descripcion": "Los funcionarios de aduanas revisan los documentos y pueden proceder a la inspección física de la mercancía."
+        },
+        {
+          "numero": 5,
+          "descripcion": "Abonar los aranceles e impuestos de importación correspondientes."
+        },
+        {
+          "numero": 6,
+          "descripcion": "Una vez liquidados los derechos aduaneros, retirar la mercancía del recinto portuario o aeroportuario."
+        }
+      ],
+      "costo_estimado": "Variable según tipo de mercancía y valor (Arancel Exterior Común CEMAC más tasas de gestión)",
+      "tiempo_estimado": "3 a 15 días hábiles (depende de la complejidad del despacho)",
+      "notas": "Guinea Ecuatorial pertenece a la CEMAC. El comercio entre países miembros de la CEMAC está libre de derechos de aduana. Para importaciones de terceros países, se aplica el Arancel Exterior Común. Guinea Ecuatorial ocupa el puesto 175/190 en el indicador de comercio transfronterizo (Doing Business 2020), por lo que se recomienda contar con un agente de aduanas."
+    }
+  ],
+  "glosario": {
+    "INSESO": "Instituto Nacional de Seguridad Social de Guinea Ecuatorial",
+    "INEGE": "Instituto Nacional de Estadística de Guinea Ecuatorial",
+    "VUE": "Ventanilla Única Empresarial",
+    "NIF": "Número de Identificación Fiscal",
+    "DNI": "Documento Nacional de Identidad",
+    "CEMAC": "Comunidad Económica y Monetaria de África Central",
+    "XAF": "Franco CFA de África Central (moneda de Guinea Ecuatorial)",
+    "BL": "Bill of Lading (Conocimiento de Embarque)",
+    "PYME": "Pequeña y Mediana Empresa",
+    "BOE": "Boletín Oficial del Estado de Guinea Ecuatorial",
+    "UNGE": "Universidad Nacional de Guinea Ecuatorial"
+  },
+  "fuentes": [
+    "Boletín Oficial del Estado de Guinea Ecuatorial (boe.gob.gq)",
+    "Ministerio de Hacienda, Economía y Planificación (minhacienda-gob.com)",
+    "Embajada de Guinea Ecuatorial en España",
+    "INSESO — Instituto Nacional de Seguridad Social (inseso.org)",
+    "Decreto nº 67/2017 — Creación de la Ventanilla Única Empresarial",
+    "Orden Ministerial nº 1/2021 del Ministerio de Seguridad Nacional (residencia de extranjeros)",
+    "Ley Tributaria nº 4/2004",
+    "Ordenanza Fiscal nº 4/2018 del Ayuntamiento de Malabo (licencias de construcción)",
+    "INEGE — Instituto Nacional de Estadística de Guinea Ecuatorial",
+    "Doing Business 2020 — Banco Mundial (Guinea Ecuatorial)",
+    "Ahoraeg.com — Portal de noticias de Guinea Ecuatorial",
+    "CLG Global (Centurion Law Group) — Registro de empresas en Guinea Ecuatorial"
+  ]
+}

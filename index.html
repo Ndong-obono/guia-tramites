@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal del Ciudadano | Guinea Ecuatorial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="contenedor nav-contenedor">
+            <div class="logo">
+                <i class="fa-solid fa-landmark"></i>
+                <span>Trámites<strong>GQ</strong></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Ministerios</a></li>
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#" class="btn-login"><i class="fa-regular fa-user"></i> Acceder</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="contenedor hero-contenido">
+            <span class="badge-hero">Portal Oficial de Servicios</span>
+            <h1>Todos tus trámites,<br>en un solo lugar.</h1>
+            <p>Busca requisitos, costos y ubicaciones para más de 20 gestiones gubernamentales en Guinea Ecuatorial de forma rápida y transparente.</p>
+            
+            <div class="buscador-wrapper">
+                <i class="fa-solid fa-magnifying-glass icono-buscar"></i>
+                <input type="text" id="buscador" placeholder="Ej. Pasaporte, Registro de Empresa, Cédula...">
+                <button class="btn-buscar">Buscar</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="categorias-rapidas contenedor">
+        <div class="grid-categorias">
+            <div class="card-categoria">
+                <div class="icono-cat"><i class="fa-solid fa-id-card"></i></div>
+                <h3>Identidad</h3>
+            </div>
+            <div class="card-categoria">
+                <div class="icono-cat"><i class="fa-solid fa-briefcase"></i></div>
+                <h3>Empresas</h3>
+            </div>
+            <div class="card-categoria">
+                <div class="icono-cat"><i class="fa-solid fa-car"></i></div>
+                <h3>Vehículos</h3>
+            </div>
+            <div class="card-categoria">
+                <div class="icono-cat"><i class="fa-solid fa-graduation-cap"></i></div>
+                <h3>Educación</h3>
+            </div>
+        </div>
+    </section>
+
+    <main class="seccion-tramites contenedor">
+        <div class="encabezado-seccion">
+            <h2>Directorio de Trámites</h2>
+            <p>Información actualizada y verificada.</p>
+        </div>
+
+        <div id="lista-tramites" class="grid-tramites">
+            
+            <article class="tarjeta-tramite">
+                <div class="tarjeta-header">
+                    <span class="etiqueta-categoria">Identidad y Documentación</span>
+                </div>
+                <div class="tarjeta-body">
+                    <h3>Obtención del Documento Nacional de Identidad (DNI)</h3>
+                    <p>El DNI es el documento de identidad oficial obligatorio para todos los ciudadanos ecuatoguineanos mayores de edad.</p>
+                    <div class="meta-info">
+                        <span><i class="fa-regular fa-clock"></i> 7 a 21 días</span>
+                        <span><i class="fa-solid fa-money-bill-wave"></i> 5.000 XAF</span>
+                    </div>
+                </div>
+                <div class="tarjeta-footer">
+                    <button class="btn-ver-mas">Ver Requisitos <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </article>
+            </div>
+    </main>
+
+    <footer class="footer-principal">
+        <div class="contenedor footer-grid">
+            <div class="footer-marca">
+                <div class="logo">
+                    <i class="fa-solid fa-landmark"></i>
+                    <span>Trámites<strong>GQ</strong></span>
+                </div>
+                <p>Simplificando la burocracia ciudadana a través de la tecnología.</p>
+            </div>
+            <div class="footer-enlaces">
+                <h4>Enlaces Útiles</h4>
+                <ul>
+                    <li><a href="#">Ventanilla Única (VUE)</a></li>
+                    <li><a href="#">Seguridad Social (INSESO)</a></li>
+                    <li><a href="#">Ministerio de Hacienda</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom contenedor">
+            <p>&copy; 2026 Directorio Ciudadano Independiente. Los datos son informativos.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
